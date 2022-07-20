@@ -52,6 +52,7 @@ font-family: 'Poppins', sans-serif; */
     vertical-align: middle;
     position: relative;
     bottom:0;
+    animation: positiony 8s infinite;
 }
 .link-btn{
     display: inline-block;
@@ -69,7 +70,27 @@ font-family: 'Poppins', sans-serif; */
     transform: scale(1.01);
     box-shadow: 0 0 3px 3px rgba(255, 0, 0, 0.177);
     font-size: 18px;
+    animation: color-change 2s linear infinite;
     
+}
+@keyframes positiony{
+    0%{
+        left:0;
+
+        
+    }
+
+    50%{
+        left:50px;
+
+    }
+    100%{
+        left:0;
+    }
+
+    
+
+
 }
 
 /* Post section  */

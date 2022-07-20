@@ -38,8 +38,8 @@
 }
 @media only screen and (max-width:992px){
     .banner-title{
-        font-size: 7vh;
-        line-height: 7vh;
+        font-size: 10vh;
+        line-height: 10vh;
     }
 
     .post-wrap{
