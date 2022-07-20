@@ -10,10 +10,11 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .container{
-    width:1200px;
+    width:1280px;
     margin:0 auto;
 }
 #top-banner{
+    width:1110px;
     background: #161616;
     color:#fff;
     margin-top:50px;
@@ -58,4 +59,84 @@ font-family: 'Poppins', sans-serif; */
     font-size: 18px;
     
 }
+
+/* Post section  */
+
+main{
+    margin: 100px 0;
+}
+#main-body{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 25px;
+}
+.post-nav{
+    background-color: #161616;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding:15px 0;
+    border-radius: 10px;
+}
+.post-nav .nav-btn{
+    display: block;
+    background-color: #fff;
+    padding:15px 10px;
+    margin:15px 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: #161616;
+    
+}
+.nav-btn.active{
+    background-color: #f82121;
+    color:#fff;
+}
+
+.post-wrap{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 24px;
+}
+.post-main{
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+}
+.post-image img{
+    width:100%;
+}
+.post-body{
+    padding:20px;
+}
+.post-body>*{
+    margin:10px 0;
+}
+.post-body .author{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #161616;
+    padding: 2px 10px;
+
+}
+.post-body .post-title{
+    font-size:18px;
+    font-weight: 700;
+}
+.duration ,.comment{
+    margin-right:20px;
+    color:#161616c3;
+    
+}
+.duration i,.comment i{
+    margin-right:5px;
+}
+
 
