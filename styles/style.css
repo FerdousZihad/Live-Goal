@@ -7,6 +7,7 @@ font-family: 'Poppins', sans-serif; */
     margin:0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .container{
@@ -98,7 +99,7 @@ main{
     
 }
 .nav-btn.active{
-    background-color: #f82121;
+    background-color: #4f2ef3;
     color:#fff;
 }
 
@@ -111,8 +112,21 @@ main{
     border-radius: 10px;
     border: 1px solid #e8e8e8;
 }
+.upcoming{
+    padding:50px 10px 0;
+}
 .post-image img{
     width:100%;
+}
+.post-image-upcoming{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.post-image-upcoming p{
+  font-weight: bold;
+  color:#161616;
 }
 .post-body{
     padding:20px;
@@ -132,11 +146,15 @@ main{
 .post-body .post-title{
     font-size:18px;
     font-weight: 700;
+    color:#161616;
 }
 .duration ,.comment{
     margin-right:20px;
     color:#161616c3;
     
+}
+.post-date{
+    color:#161616c3;
 }
 .duration i,.comment i{
     margin-right:5px;
