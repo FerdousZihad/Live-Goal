@@ -1,4 +1,6 @@
-
+/***********************
+ For Large screen Devices
+ **************************/
 @media  only screen and (max-width:1312px) {
     .container{
         width:90%;
@@ -9,7 +11,9 @@
     }
     
 }
-
+/***********************
+ For medium large screen Devices
+ **************************/
 @media only screen and (max-width:1200px){
 
     #top-banner{
@@ -36,10 +40,14 @@
         align-items: center;
     }
 }
+/***********************
+ For medium screen Devices
+ **************************/
+
 @media only screen and (max-width:992px){
     .banner-title{
-        font-size: 10vh;
-        line-height: 10vh;
+        font-size: 8vh;
+        line-height: 8vh;
     }
 
     .post-wrap{
@@ -52,14 +60,15 @@
     }
 }
 
-
+/***********************
+ For Mobilr Devices
+ **************************/
 @media only screen and (max-width:767px){
 
     #top-banner{
         grid-template-columns: 1fr;
     }
 
-    
 
     .banner-title{
         font-size: 43px;

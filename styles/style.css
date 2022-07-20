@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* font-family: 'Lobster', cursive;
-font-family: 'Poppins', sans-serif; */
 
+/***Basic Styling Start************************************/
 *{
     margin:0;
     padding: 0;
@@ -17,6 +16,9 @@ font-family: 'Poppins', sans-serif; */
 .text-center{
     text-align: center;
 }
+/***Basic Styling Start************************************/
+
+/***  Top Banner start ************************************/
 #top-banner{
     background: #161616;
     color:#fff;
@@ -70,9 +72,14 @@ font-family: 'Poppins', sans-serif; */
     transform: scale(1.01);
     box-shadow: 0 0 3px 3px rgba(255, 0, 0, 0.177);
     font-size: 18px;
-    animation: color-change 2s linear infinite;
+    border-bottom: 3px solid gold;
+    border-top: 3px solid gold;
+   
     
 }
+/***  Top Banner End ************************************/
+
+
 @keyframes positiony{
     0%{
         left:0;
@@ -93,7 +100,7 @@ font-family: 'Poppins', sans-serif; */
 
 }
 
-/* Post section  */
+/* Post section Start  */
 
 main{
     margin: 100px 0;
@@ -125,11 +132,16 @@ main{
     cursor: pointer;
     text-decoration: none;
     color: #161616;
+    transition:all .3s;
     
 }
 .nav-btn.active{
     background-color: #4f2ef3;
     color:#fff;
+}
+.nav-btn:hover{
+    background-color: #ff4747;
+    color: #fff;
 }
 
 .post-wrap{
@@ -170,7 +182,14 @@ main{
     border-radius: 5px;
     border: 1px solid #161616;
     padding: 2px 10px;
+    transition: all .3s;
 
+}
+.post-body .author:hover{
+    background-color: #ff4747;
+    color:#fff;
+    border: 1px solid #ff4747;
+    cursor:pointer;
 }
 .post-body .post-title{
     font-size:18px;
@@ -197,8 +216,10 @@ main{
     display:none;
 }
 
-/* Post section complete  */
+/****************** Post section completed ******************************* */
 
+
+/****************** Footer Start ******************************* */
 footer{
     background-color: #161616;
     padding:100px 0 60px 0;
@@ -239,7 +260,7 @@ hr {
 }
 .social i{
     color:#b9b9b9;
-    font-size: 18px;
+    font-size: 23px;
     text-align: center;
     margin:0 10px;
     transition: all .3s;
@@ -252,3 +273,5 @@ hr {
 .foot-links li a:hover{
     color:#ffffff;
 }
+
+/******** Footer Completed ******************************* */
