@@ -208,6 +208,8 @@ hr {
     color:#b9b9b9;
     text-decoration: none;
     font-size: 16px;
+    transition: all .3s;
+    
 }
 .social{
     text-align: center;
@@ -219,5 +221,13 @@ hr {
     font-size: 18px;
     text-align: center;
     margin:0 10px;
+    transition: all .3s;
 
+}
+.social i:hover{
+    transform: scale(2);
+    color:lightseagreen
+}
+.foot-links li a:hover{
+    color:#ffffff;
 }
